@@ -1,0 +1,68 @@
+# 📂 Dataset Information - Smart Crop Recommendation
+
+This dataset is used to build a **Smart Crop Recommendation System** using machine learning.  
+It contains environmental, soil, and farming data to predict **Crop_Type** and estimate **Crop_Yield**.
+
+---
+
+## 🔹 Dataset Source
+
+- **Kaggle Dataset:**  
+[Smart Crop Recommendation Dataset](https://www.kaggle.com/datasets/miadul/smart-crop-recommendation-dataset)  
+
+- **Direct Data File:**  
+[Data CSV](https://www.kaggle.com/datasets/miadul/smart-crop-recommendation-dataset?select=data)  
+
+> Note: Access to the dataset requires a Kaggle account login.  
+> All credits belong to the original Kaggle authors and dataset providers.
+
+---
+
+## 🔹 Dataset Overview
+
+- **Number of rows (samples):** 10,000  
+- **Number of columns (features):** 20  
+- **Task Type:** Multi-class classification (Crop_Type) & Regression (Crop_Yield)  
+
+---
+
+## 🔹 Features Description
+
+| Column                       | Type      | Description |
+|-------------------------------|----------|-------------|
+| N                             | int64    | Nitrogen content in soil |
+| P                             | int64    | Phosphorus content in soil |
+| K                             | int64    | Potassium content in soil |
+| Soil_pH                       | float64  | pH level of the soil |
+| Soil_Moisture                 | float64  | Soil moisture percentage |
+| Soil_Type                      | object   | Type of soil (e.g., sandy, loamy) |
+| Organic_Carbon                | float64  | Organic carbon content in soil |
+| Temperature                   | float64  | Average temperature in Celsius |
+| Humidity                      | float64  | Average humidity percentage |
+| Rainfall                      | float64  | Rainfall in mm |
+| Sunlight_Hours                | float64  | Daily sunlight hours |
+| Wind_Speed                     | float64  | Wind speed in km/h |
+| Region                        | object   | Geographical region of the farm |
+| Altitude                       | int64    | Altitude of farm in meters |
+| Season                        | object   | Season when crop is grown |
+| Crop_Type                      | object   | Target variable: type of crop to be planted |
+| Irrigation_Type                | object   | Type of irrigation used |
+| Fertilizer_Used                | float64  | Amount of fertilizer used (kg/hectare) |
+| Pesticide_Used                 | float64  | Amount of pesticide used (kg/hectare) |
+| Crop_Yield_ton_per_hectare     | float64  | Target variable: crop yield in tons per hectare |
+
+---
+
+## 🔹 Notes
+
+- No missing values present in the dataset.  
+- Features include both **numerical** (int/float) and **categorical** (object) types.  
+- Target variables:
+  - **Crop_Type:** for classification  
+  - **Crop_Yield_ton_per_hectare:** for regression / yield estimation  
+- Can be used to build **machine learning models** for crop recommendation and yield prediction.
+
+  - **Crop_Type:** for classification  
+  - **Crop_Yield_ton_per_hectare:** for regression / yield estimation  
+- Can be used to build **machine learning models** for crop recommendation and yield prediction.
+
